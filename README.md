@@ -42,7 +42,7 @@ The dataset contains demographic and socioeconomic variables including:
 - Statistical Interpretation
 
 ## How to Run
-1. Open `FinalProject.R` in RStudio
+1. Open `Crime Rate Model.R` in RStudio
 2. Ensure the dataset is in the same directory
 3. Run the script
 
