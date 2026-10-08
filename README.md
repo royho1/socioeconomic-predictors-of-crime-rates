@@ -28,6 +28,38 @@ The dataset contains demographic and socioeconomic variables including:
 - Models including poverty explained a substantial portion of the variability in crime rates.
 - Diagnostic checks confirmed reasonable adherence to regression assumptions.
 
+## Screenshots
+
+### Pairs plot
+
+![Pairs plot](docs/screenshots/pairs-plot.png)
+
+Region 1 pairwise relationships across crimes and predictors.
+
+### Poverty scatter
+
+![Poverty scatter](docs/screenshots/poverty-scatter.png)
+
+Total crimes vs percent below poverty level.
+
+### Model selection
+
+![Model selection](docs/screenshots/model-selection.png)
+
+AIC and BIC across eight candidate regressions. Lower values are preferred.
+
+### Fitted vs actual
+
+![Fitted vs actual](docs/screenshots/fitted-vs-actual.png)
+
+Multiple regression fitted values against observed crimes.
+
+### Residual diagnostics
+
+![Residual diagnostics](docs/screenshots/residual-diagnostics.png)
+
+Standard lm diagnostic plots for the selected crime model.
+
 ## Tools Used
 - R
 - ggplot2
